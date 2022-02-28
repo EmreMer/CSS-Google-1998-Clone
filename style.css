@@ -2,6 +2,9 @@ body{
     width: 1200px;
     margin: auto;
 }
+h3{
+    margin-top: 0;
+}
 .header_logo{
   display: block;
   margin-left: auto;
@@ -19,9 +22,14 @@ body{
 .search_form_input{
     width: 250px;
 }
+.a_dec{
+    text-align: center;
+    display: block;
+}
+
 .box{
-    margin-right: 4px;
     box-sizing: border-box;
+    margin-right: 4px;
     height: 150px;
     float: left;
     width: 33%;
@@ -30,7 +38,7 @@ body{
 .clearfix{
     content: "";
     clear: both;
-    display: table;
+    
 }
 .footer_info{
     text-align: center;
